@@ -1,0 +1,236 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Consultorio Odontologico del Norte</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Added the static tag in the line below. Don´t know if it´s-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<script src="https://www.google.com/recaptcha/api.js?render="></script>	
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="https://codelnorte.herokuapp.com/" class="logo"><strong>Bienvenido</strong> a nuestro sitio web</a>
+					<nav id="nav">
+						<a href="https://codelnorte.herokuapp.com/">Home</a>
+						<a href="#main">Nosotros</a>
+						<a href="#team">Staff</a>
+						<a href="#servicios">Servicios</a>
+						<a href="#footer">Contacto</a>
+						
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+				
+				<div class="flex ">
+				<div class="flex ">
+				</div>
+			</section>
+			
+<!-- Main -->
+<section id="main" class="wrapper">
+	<div class="inner">
+		<header class="align-center">
+			<h2>Nosotros</h2>
+			<p>Conocé el consultorio por dentro</p>
+		</header>
+
+		<!-- Quienes Somos -->
+			<div class="row">
+				<section class="6u 12u$(medium)">
+					<h2>¿Quienes somos?</h2>
+					<p><strong>El Consultorio Odontológico del Norte</strong> está integrado por un equipo de profesionales que tiene como finalidad la rehabilitación de la cavidad oral para devolverle al paciente la función y estética deseada.</p>
+				</section>
+				<img class= "img-sectionimages" src="{% static 'assets/images/Sala de espera.jpg' %}"  alt="Consultorio">
+				</div>
+			
+			<div class="row">
+				<img class= "img-nuestrocentro" src="{% static 'assets/images/Consultorio.jpg' %}"  alt="Consultorio">
+				<section class="6u 12u$(medium)">
+					<h2>Nuestro centro</h2>
+					<p>Nuestro consultorio está ubicado en las <strong>Lomas de San Isidro</strong>, en un área de fácil y rápido acceso.
+					   Contamos con 3 consultorios individuales y agrupados para su mejor atención. Tenemos un espacio de esterilización para nuestras herramientas quirúrgicas.
+					   ​​​​​​​ El paciente es recibido con una <strong>espaciosa, moderna y confortable</strong> sala de espera.</p>
+				</section>
+					
+			</div>
+			
+
+		<hr class="major" />
+		<!-- Staff -->
+		
+			<section id="three" class="wrapper align-center">
+				<div class="inner">
+					<div class="w3-container w3-padding-64 w3-center" id="team">
+						<h2>NUESTRO STAFF</h2>
+						<p>Conozca a nuestros profesionales</p>
+						<div class="w3-row"><br>
+					<div class="flex flex-2">
+						
+						<article>
+							<div class="image round">
+								<img src="{% static 'assets/images/LuisForWeb.jpg' %}"  alt="Pic 01" />
+							</div>
+							<header>
+								<h3>Dr. Luis Alberto Ferrari</h3>
+							</header>
+							<p>Rehabilitacion</p>
+												
+						</article>
+						<article>
+							<div class="image round">
+								<img src="{% static 'assets/images/JoaquinForWeb.jpg' %}" alt="Pic 02" />
+							</div>
+							<header>
+								<h3>Dr. Joaquin Romano</h3>
+							</header>
+							<p>Rehabilitacion</p>
+							</article>
+							<article>
+								<div class="image round">
+									<img src="{% static 'assets/images/DeboraForWeb.jpg' %}" alt="Pic 02" />
+								</div>
+								<header>
+									<h3>Dra. Débora Blustein</h3>
+								</header>
+								<p>Endodoncia</p>
+								</article>
+								<article>
+									<div class="image round">
+										<img src="{% static 'assets/images/GuillermoForWeb.jpg' %}" alt="Pic 02" />
+									</div>
+									<header>
+										<h3>Dr. Guillermo Hiriart</h3>
+									</header>
+									<p>Rehabilitacion</p>
+									</article>
+									<article>
+										<div class="image round">
+											<img src="{% static 'assets/images/ValeriaForWeb.jpg' %}" alt="Pic 02" />
+										</div>
+										<header>
+											<h3>Valeria Gioverrano</h3>
+										</header>
+										<p>Recepción y asistencia</p>
+										</article>
+										<article>
+											<div class="image round">
+												<img src="{% static 'assets/images/KatherineForWeb.jpg' %}" alt="Pic 02" />
+											</div>
+											<header>
+												<h3>Katherine Carbajal</h3>
+											</header>
+											<p>Recepción y asistencia</p>
+											</article>
+					</div>
+				</div>
+			</section>
+			<hr class="major" />
+<!--Quienes somos parte 2-->
+<div class="row">
+	<section class="6u 12u$(medium)" id="servicios">
+		<h2>Servicios</h2>
+		<p>Contamos con todos los elementos necesarios para <strong> la salud oral de paciente</strong>, aplicando todos los conocimientos de la odontología actual para devolverle la salud y autonomía a las piezas dentales enfermas e implementando elementos protéticos en las adéntulas.
+			<br>​<br>
+			Aplicamos todos los conocimientos de la <strong>implantología, prostodoncia, cirugía, ortodoncia y estética</strong> para restablecer la oclusión, masticación, la sonrisa alteradas por enfermedad peridontal y las caries.</p>
+	</section>
+	<img class= "img-sectionimages" src="{% static 'assets/images/Sonrisa.png' %}"  alt="Consultorio">
+
+</div>
+
+<div class="row">
+	<img class= "img-nuestrocentro" src="{% static 'assets/images/iti.jpg' %}"  alt="Consultorio">
+	<section class="6u 12u$(medium)">
+		<h2>Práctica de calidad</h2>
+		<p>En nuestro trabajo aplicamos todos los conocimientos adquiridos en cursos de formación, basadas en principios éticos que priorizan la salud y el <strong>bienestar</strong> del paciente. <br><br>
+		   Buscamos en nuestros tratamientos el respaldo de la bibliografía internacional de los principales centros de referencia del mundo y seguimos los lineamientos de la escuela quirúrgica implantología <strong>Internacional Team for Implantology (ITI)</strong>, con sede en Ginebra, Suiza.</p>
+	</section>
+</div>
+</section>
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<h3 class="align-center">Contacto</h3>
+				
+            <p><strong>Dirección:</strong>
+				<br>
+				Av. Andrés Rolón 717
+				
+				San Isidro BUENOS AIRES 1642
+				<br>
+				<i class="fa fa-phone w3-hover-opacity"></i><strong>Teléfonos: </strong>
+				<br>
+				(011) 4743 0208 y (011) 4743 0408
+				<br>
+				<strong>Horarios para solicitar turnos:</strong>
+				<br>
+				Lunes a jueves de 13:00 a 19:00 hs.</p>
+				
+				<div class="mapWrapper">
+					<div class="overlay" onClick="style.pointerEvents='none'"></div>
+				<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.098812634693!2d-58.53263078477375!3d-34.47501748049297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb03de6790d5b%3A0xf598d97c2ab95ffb!2sAvenida%20Andr%C3%A9s%20Rol%C3%B3n%20717%2C%20B1642%20BIH%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1589223279889!5m2!1ses!2sar" width="1200" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				
+				<!--Form-->
+				<form id="subscribeForm" method="POST" action="/contact">
+					{% csrf_token %}
+					<div class="field half first">
+						<label for="name">Name</label>
+						<input name="name" id="name" type="text" placeholder="Name">
+					</div>
+					<div class="field half">
+						<label for="email">Email</label>
+						<input name="email" id="email" type="email" placeholder="Email">
+					</div>
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea name="message" id="text" rows="6" placeholder="Message"></textarea>
+					</div>
+					<ul class="actions">
+						<li><input value="Send Message" class="button alt" type="submit"></li>
+					</ul>
+				</form>
+				<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+							
+
+				<div class="copyright">
+					&copy; CODELNORTE. Diseño: <a href="https://templated.co">TEMPLATED</a>
+				</div>
+
+			</div>
+		</footer>
+		<br>
+	
+		<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+		<script src="{% static 'assets/js/button.js' %}"></script>
+
+		
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/skel.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+			
+	</body>
+
+</html>
